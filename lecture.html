@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>محاضرة</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Reem+Kufi:wght@400;500;600;700&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="lecture">
+<div class="wrap" id="app">
+  <a class="back" id="backLink" href="index.html">‹ رجوع</a>
+  <header style="padding-top:8px">
+    <div class="eyebrow" id="eyebrow">أكاديمية زاد</div>
+    <h1 id="title">…</h1>
+    <div class="sub" id="subtitle"></div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-t="summary">الملخّص + بالبلدي</button>
+    <button class="tab" data-t="cards">البطاقات</button>
+    <button class="tab" data-t="quiz">الاختبار</button>
+    <button class="tab" data-t="hard">تحدّي</button>
+  </nav>
+
+  <section class="panel active" id="summary"><div id="summaryBox"></div></section>
+
+  <section class="panel" id="cards">
+    <div class="fc-head">
+      <div class="chips" id="fcChips"></div>
+      <div class="counter" id="fcCounter"></div>
+    </div>
+    <div class="flashcard" id="flashcard">
+      <div class="fc-inner">
+        <div class="fc-face fc-front">
+          <div class="cat" id="fcCat"></div>
+          <div class="q" id="fcQ"></div>
+          <div class="hint">اضغط لعرض الإجابة ↻</div>
+        </div>
+        <div class="fc-face fc-back" id="fcBack"></div>
+      </div>
+    </div>
+    <div class="fc-nav">
+      <button class="btn btn-ghost" id="prevBtn">السابق</button>
+      <button class="btn btn-main" id="flipBtn">اقلب البطاقة</button>
+      <button class="btn btn-ghost" id="nextBtn">التالي</button>
+    </div>
+  </section>
+
+  <section class="panel" id="quiz">
+    <div class="quiz-intro block">
+      <h3 style="border:none;padding:0;margin:0"><span class="num">؟</span> اختبر نفسك</h3>
+      <p style="margin-top:8px;color:var(--muted)">اختر الإجابة الصحيحة — النتيجة تظهر فورًا مع الشرح.</p>
+    </div>
+    <div id="quizBox"></div>
+    <div class="scorebar"><span>نتيجتك</span><span><span class="n" id="score">٠</span> / <span id="total">٠</span></span></div>
+  </section>
+
+  <section class="panel" id="hard">
+    <div class="block" style="background:linear-gradient(160deg,var(--pine),var(--pine-deep));color:#f4ecd9;border:none">
+      <h3 style="color:var(--brass-light);border-color:rgba(255,255,255,.15)"><span class="num" style="background:var(--brass-light);color:var(--pine-deep)">★</span> أسئلة التحدّي</h3>
+      <p style="color:#eadfc9">جاوب في نفسك أولًا ثم اكشف النموذج.</p>
+    </div>
+    <div id="hardBox"></div>
+  </section>
+
+  <footer><div class="ornament">۞</div>راجع البطاقات يوميًا، واقرأ صناديق «بالبلدي» لأي مفهوم صعب</footer>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>
