@@ -96,7 +96,7 @@ section.panel.active{display:block}
 .ex .arrow{color:var(--brass);font-weight:700}
 .ex .sacred{font-size:1.05rem;margin:6px 0}
 
-/* بالبلدي */
+/* ببساطة */
 .baladi{background:var(--honey);border:1px solid var(--honey-b);border-radius:14px;padding:14px 16px;margin:13px 0}
 .baladi-head{display:inline-flex;align-items:center;gap:7px;font-family:'Reem Kufi';font-weight:700;color:var(--honey-t);background:#F3E4C4;border-radius:20px;padding:5px 13px;font-size:.86rem;margin-bottom:11px}
 .baladi p{font-size:.98rem;margin-bottom:8px;color:#453b28}
