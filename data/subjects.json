@@ -30,7 +30,12 @@
     },
     {
       "key": "aqeedah", "name": "العقيدة", "icon": "☪️", "desc": "التوحيد والاعتقاد",
-      "years": [ { "year": 1, "lectures": [] }, { "year": 2, "lectures": [] } ]
+      "years": [
+        { "year": 1, "lectures": [
+          { "id": "y1-lec1", "no": 1, "title": "المحاضرة الأولى", "subtitle": "مقدمة في علم العقيدة · معناها وأهميتها" }
+        ]},
+        { "year": 2, "lectures": [] }
+      ]
     },
     {
       "key": "tarbiyah", "name": "التربية الإسلامية", "icon": "🌱", "desc": "الأخلاق والسلوك",
