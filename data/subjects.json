@@ -49,7 +49,11 @@
     },
     {
       "key": "hadith", "name": "الحديث", "icon": "📜", "desc": "سنة النبي ﷺ",
-      "years": [ { "year": 1, "lectures": [] }, { "year": 2, "lectures": [] } ]
+      "years": [ { "year": 1, "lectures": [
+        { "id": "y1-lec5", "no": 5, "title": "المحاضرة 5", "subtitle": "الأخلاق والحياء (٢)" }
+
+        
+      ] }, { "year": 2, "lectures": [] } ]
     },
     {
       "key": "aqeedah", "name": "العقيدة", "icon": "☪️", "desc": "التوحيد والاعتقاد",
