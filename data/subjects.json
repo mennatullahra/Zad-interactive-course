@@ -50,7 +50,8 @@
     {
       "key": "hadith", "name": "الحديث", "icon": "📜", "desc": "سنة النبي ﷺ",
       "years": [ { "year": 1, "lectures": [
-        { "id": "y1-lec5", "no": 5, "title": "المحاضرة 5", "subtitle": "الأخلاق والحياء (٢)" }
+        { "id": "y1-lec5", "no": 5, "title": "المحاضرة 5", "subtitle": "الأخلاق والحياء (٢)" },
+        { "id": "y1-lec6", "no": 6, "title": "المحاضرة 6", "subtitle": "إنما بعثت لأتمم مكارم الأخلاق" }
 
         
       ] }, { "year": 2, "lectures": [] } ]
